@@ -1,0 +1,9 @@
+[user]
+  name = Robin Murphy
+  email = robin@robinmurphy.co.uk
+[alias]
+  s = status -s
+  st = status
+  dc = diff --cached
+  pom = push origin master
+  ci = commit

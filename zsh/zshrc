@@ -1,0 +1,24 @@
+# prompt
+autoload -U promptinit && promptinit
+prompt pure
+
+# history
+export HISTSIZE=100000
+export SAVEHIST=$HISTSIZE
+export HISTFILE=~/.zsh_history
+
+# aliases
+alias gpom='git push origin master'
+alias ll='ls -lh'
+alias nodemon='NODE_ENV=dev nodemon -e html,js,json'
+alias reload='source ~/.zshrc'
+
+# environment
+export CLICOLOR=1
+export GREP_OPTIONS='--color=auto'
+export EDITOR='/usr/bin/vim'
+export PATH=$PATH:~/bin
+
+# ruby
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+chruby ruby-2.1
