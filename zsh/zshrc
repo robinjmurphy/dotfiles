@@ -19,6 +19,9 @@ export GREP_OPTIONS='--color=auto'
 export EDITOR='/usr/local/bin/vim'
 export PATH=$PATH:~/bin
 
+# secrets
+source ~/.secrets
+
 # ruby
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 chruby ruby-2.1
