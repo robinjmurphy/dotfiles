@@ -7,6 +7,9 @@
   set showmode
   set nowrap
 
+" All the backspaces!
+  set backspace=indent,eol,start
+
 " Colours
   colorscheme Tomorrow-Night
 
@@ -22,8 +25,8 @@
   set ignorecase
 
 " Filetypes
-   au BufNewFile,BufRead Vagrantfile set filetype=ruby
-   au BufNewFile,BufRead Gemfile set filetype=ruby
+  au BufNewFile,BufRead Vagrantfile set filetype=ruby
+  au BufNewFile,BufRead Gemfile set filetype=ruby
 
 " Paste
   set clipboard=unnamed
