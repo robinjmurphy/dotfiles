@@ -2,6 +2,9 @@
 autoload -U promptinit && promptinit
 prompt pure
 
+# fix delete in terminal
+bindkey "^[[3~" delete-char
+
 # history
 export HISTSIZE=100000
 export SAVEHIST=$HISTSIZE
