@@ -31,3 +31,4 @@ chruby ruby-2.1
 
 # go
 export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
