@@ -2,6 +2,9 @@
 autoload -U promptinit && promptinit
 prompt pure
 
+# git auto-complete
+autoload -U compinit && compinit
+
 # fix delete in terminal
 bindkey "^[[3~" delete-char
 
