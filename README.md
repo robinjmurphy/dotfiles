@@ -7,6 +7,7 @@
 * [Chruby](https://github.com/postmodern/chruby)
 * [Pure](https://github.com/sindresorhus/pure)
 * [ruby-install](https://github.com/postmodern/ruby-install) (`ruby-install ruby 2.3`)
+* [nvm](https://github.com/creationix/nvm)
 
 ## Installation
 
