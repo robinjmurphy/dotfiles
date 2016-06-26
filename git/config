@@ -7,3 +7,4 @@
   dc = diff --cached
   pom = push origin master
   ci = commit
+  amend = commit --amend --no-edit

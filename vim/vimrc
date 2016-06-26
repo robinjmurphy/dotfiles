@@ -3,15 +3,14 @@
   set number
   set laststatus=2
   set ruler
-  set cursorline
   set showmode
   set nowrap
 
+" Colors
+  hi LineNr ctermfg=DarkGrey
+
 " All the backspaces!
   set backspace=indent,eol,start
-
-" Colours
-  colorscheme Tomorrow-Night
 
 " Tabs and whitespace
   set expandtab
