@@ -1,13 +1,22 @@
+" Pathogen
+  execute pathogen#infect()
+
 " Basics
   syntax on
   set number
   set laststatus=2
   set ruler
   set showmode
+  set cursorline
+  set wildmenu
   set nowrap
+  set wildmenu
 
-" Colors
-  hi LineNr ctermfg=DarkGrey
+" Enable filetype plugins
+  filetype plugin on
+
+" Colours
+  colorscheme base16-ocean
 
 " All the backspaces!
   set backspace=indent,eol,start
@@ -29,3 +38,4 @@
 
 " Paste
   set clipboard=unnamed
+

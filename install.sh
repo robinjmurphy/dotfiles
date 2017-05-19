@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # vim
-mkdir -p ~/.vim
+mkdir -p ~/.vim/bundle
 
 # symlinks
 ln -sf $(pwd)/git/config ~/.gitconfig
