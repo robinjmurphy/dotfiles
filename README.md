@@ -2,7 +2,7 @@
 
 > My personal dotfiles
 
-## Requires
+## Requires
 
 * [Chruby](https://github.com/postmodern/chruby)
 * [Pure](https://github.com/sindresorhus/pure)
