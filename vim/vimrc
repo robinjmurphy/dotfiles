@@ -16,7 +16,7 @@
   filetype plugin on
 
 " Colours
-  colorscheme base16-ocean
+  colorscheme base16-oceanicnext
 
 " All the backspaces!
   set backspace=indent,eol,start
