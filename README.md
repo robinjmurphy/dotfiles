@@ -27,3 +27,6 @@ sh install.sh
 * [vim-go](https://github.com/fatih/vim-go)
 * [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
 * [nerdtree](https://github.com/scrooloose/nerdtree)
+* [vim-javascript](https://github.com/pangloss/vim-javascript)
+* [vim-jsx](https://github.com/mxw/vim-jsx)
+* [neoformat](https://github.com/sbdchd/neoformat)

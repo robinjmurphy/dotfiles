@@ -45,3 +45,13 @@
 
 " nerdtree
   map <C-n> :NERDTreeToggle<CR>
+
+" JSX syntax
+  let g:jsx_ext_required = 0
+
+" ctrlp
+  let g:ctrlp_custom_ignore = '\v[\/](\.(git|hg|svn)|node_modules)$'
+
+" prettier
+  autocmd FileType javascript setlocal formatprg=prettier\ --stdin\ --single-quote 
+  let g:neoformat_try_formatprg = 1
