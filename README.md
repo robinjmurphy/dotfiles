@@ -26,3 +26,4 @@ sh install.sh
 * [neocomplete.vim](https://github.com/Shougo/neocomplete.vim)
 * [vim-go](https://github.com/fatih/vim-go)
 * [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
+* [nerdtree](https://github.com/scrooloose/nerdtree)
