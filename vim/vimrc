@@ -21,6 +21,10 @@
 " All the backspaces!
   set backspace=indent,eol,start
 
+" Centralize backups, swapfiles and undo history
+  set backupdir=~/.vim/backups
+  set directory=~/.vim/swaps
+
 " Tabs and whitespace
   set expandtab
   set tabstop=2
@@ -39,3 +43,5 @@
 " Paste
   set clipboard=unnamed
 
+" nerdtree
+  map <C-n> :NERDTreeToggle<CR>
