@@ -55,3 +55,6 @@
 " prettier
   autocmd FileType javascript setlocal formatprg=prettier\ --stdin\ --single-quote 
   let g:neoformat_try_formatprg = 1
+
+" vim-go
+  let g:go_fmt_command = "goimports"
