@@ -16,7 +16,11 @@
   filetype plugin on
 
 " Colours
-  colorscheme base16-oceanicnext
+  if (has("termguicolors"))
+    set termguicolors
+  endif
+  colorscheme OceanicNext
+  let g:airline_theme='oceanicnext'
 
 " All the backspaces!
   set backspace=indent,eol,start

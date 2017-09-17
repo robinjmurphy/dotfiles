@@ -8,7 +8,7 @@
 * [Pure](https://github.com/sindresorhus/pure)
 * [ruby-install](https://github.com/postmodern/ruby-install) (`ruby-install ruby 2.3`)
 * [nvm](https://github.com/creationix/nvm)
-* [base16-vim](https://github.com/chriskempson/base16-vim)
+* [oceanic-next (Vim color scheme)](https://github.com/mhartington/oceanic-next)
 
 ## Installation
 
@@ -20,7 +20,7 @@ sh install.sh
 
 ## Extras
 
-* [base16 (iTerm theme)](https://github.com/chriskempson/base16-iterm2)
+* [oceanic-next (iTerm theme)](https://github.com/mhartington/oceanic-next-iterm)
 * [vim-airline](https://github.com/vim-airline/vim-airline)
 * [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
 * [neocomplete.vim](https://github.com/Shougo/neocomplete.vim)
