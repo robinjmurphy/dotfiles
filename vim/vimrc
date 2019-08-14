@@ -43,6 +43,7 @@
 " Filetypes
   au BufNewFile,BufRead Vagrantfile set filetype=ruby
   au BufNewFile,BufRead Gemfile set filetype=ruby
+  au BufNewFile,BufRead *.txt set wrap
 
 " Paste
   set clipboard=unnamed
