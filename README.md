@@ -30,3 +30,5 @@ sh install.sh
 * [vim-javascript](https://github.com/pangloss/vim-javascript)
 * [vim-jsx](https://github.com/mxw/vim-jsx)
 * [neoformat](https://github.com/sbdchd/neoformat)
+* [goyo.vim](https://github.com/junegunn/goyo.vim)
+* [limelight.vim](https://github.com/junegunn/limelight.vim)
