@@ -63,3 +63,6 @@
 
 " vim-go
   let g:go_fmt_command = "goimports"
+
+" Distraction free mode
+  command Zen Limelight | set cursorline& | Goyo
