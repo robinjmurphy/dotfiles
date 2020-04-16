@@ -44,6 +44,8 @@
   au BufNewFile,BufRead Vagrantfile set filetype=ruby
   au BufNewFile,BufRead Gemfile set filetype=ruby
   au BufNewFile,BufRead *.txt set wrap
+  au BufNewFile,BufRead *.md set wrap
+  au BufNewFile,BufRead *.md set linebreak
 
 " Paste
   set clipboard=unnamed
