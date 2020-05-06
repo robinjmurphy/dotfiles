@@ -32,11 +32,6 @@ export PATH=$PATH:~/bin
 export USE_REDIS=1
 export AWS_REGION=eu-west-1
 
-# proxies
-if [ -f ~/bin/proxies ]; then
-  source ~/bin/proxies
-fi
-
 # secrets
 source ~/.secrets
 
