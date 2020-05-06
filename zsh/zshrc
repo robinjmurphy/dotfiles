@@ -32,9 +32,6 @@ export PATH=$PATH:~/bin
 export USE_REDIS=1
 export AWS_REGION=eu-west-1
 
-# secrets
-source ~/.secrets
-
 # ruby
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 chruby ruby
@@ -46,3 +43,10 @@ export PATH=$PATH:$GOPATH/bin
 # nvm
 alias nvm-init='~/.nvm/nvm.sh'
 
+s () {
+  [[ -f "$1" ]] && source "$1"
+}
+
+# overrides
+s ~/.secrets
+s ~/.overrides
