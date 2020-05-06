@@ -2,6 +2,6 @@
   name = Robin Murphy
   email = robin@robinmurphy.co.uk
 [alias]
-  s = status -s
+  s = status -s -b
   dc = diff --cached
   fix = commit --amend --no-edit
