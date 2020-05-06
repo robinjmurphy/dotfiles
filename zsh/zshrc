@@ -33,9 +33,6 @@ chruby ruby
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
-# nvm
-alias nvm-init='~/.nvm/nvm.sh'
-
 s () {
   [[ -f "$1" ]] && source "$1"
 }
