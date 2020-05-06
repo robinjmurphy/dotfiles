@@ -14,7 +14,9 @@ export SAVEHIST=$HISTSIZE
 export HISTFILE=~/.zsh_history
 
 # aliases
+alias gcb="git rev-parse --abbrev-ref HEAD"
 alias gp='git push'
+alias gpl='git pull'
 alias ll='ls -lh'
 alias nodemon='NODE_ENV=dev nodemon -e html,js,json'
 alias reload='source ~/.zshrc'
