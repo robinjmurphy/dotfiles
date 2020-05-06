@@ -14,15 +14,10 @@ export SAVEHIST=$HISTSIZE
 export HISTFILE=~/.zsh_history
 
 # aliases
-alias gpom='git push origin master'
 alias gp='git push'
 alias ll='ls -lh'
 alias nodemon='NODE_ENV=dev nodemon -e html,js,json'
 alias reload='source ~/.zshrc'
-alias comsos=cosmos
-alias nom=npm
-alias work='ketchup start 25'
-alias comfort-break='ketchup start 10'
 
 # environment
 export CLICOLOR=1
