@@ -5,3 +5,6 @@
   s = status -s -b
   dc = diff --cached
   fix = commit --amend --no-edit
+
+[url "git@github.com:"]
+    insteadOf = "https://github.com/"
