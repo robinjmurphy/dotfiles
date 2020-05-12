@@ -1,0 +1,7 @@
+#! /bin/sh
+
+ticket=$1
+name=$2
+branch="robinjmurphy/$ticket/$name"
+
+git checkout -b $branch
